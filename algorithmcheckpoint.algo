@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+VAR input==CHAR
+                          
+BEGIN
+END_FOR
+    FOR i FROM 0 TO i==="." STEP i++  DO
+    IF (i==char) THEN numberofcharacters++
+    END_IF
+    IF (i= "i") THEN numberofwords++
+    END_IF
+    IF (i= "a") THEN nemberofvowels++
+   ELSE_IF (i="e") THEN nemberofvowels++
+        
+    ELSE_IF (i="o") THEN nemberofvowels++
+    ELSE_IF (i="u") THEN nemberofvowels++
+    ELSE_IF (i="y") THEN nemberofvowels++
+    END_IF
+
+ END_FOR
+ return (nemberofvowels)
+ return (nemberofwords)
+ return (nemberofcharacters)
+END 
